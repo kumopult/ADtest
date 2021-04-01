@@ -56,12 +56,5 @@ namespace ADtest
             print("结果已保存");
             print(data.ToString());
         }
-
-        public void CreateLevel(string levelName){
-            Level newLevel = ((GameObject)Instantiate(Resources.Load("LevelTemplate"))).GetComponent<Level>();
-            newLevel.gameObject.name = levelName;
-
-            levels.Add(newLevel);
-        }
     }
 }

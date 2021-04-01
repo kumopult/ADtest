@@ -19,7 +19,6 @@ namespace ADtest
             // 一个关卡结束后要不要把自己给关掉？这个还不太确定。
             this.gameObject.SetActive(false);
         }
-        
     }
 
 }
